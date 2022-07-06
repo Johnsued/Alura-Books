@@ -101,6 +101,57 @@
             </div>
         </div>
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Top Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="Livro do Apache Kafka"></div>
+                <div class="swiper-slide"><img src="./img/Arquitetura.svg" alt="Livro de Arquitetura"></div>
+                <div class="swiper-slide"><img src="./img/Gestão.svg" alt="Livro sobre gestão"></div>
+                <div class="swiper-slide"><img src="./img/Javascript.svg" alt="O livro sobre javascript"></div>
+                <div class="swiper-slide"><img src="./img/MetricasAgeis.svg" alt="Livro sobre metricas agéis"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!--1º linha-->
+            <div class="card__descrição">
+                 <!--1º coluna-->
+                <div class="descrição">
+                    <img src="img/Star 1.svg" alt="estrela">
+                    <img src="img/Star 1.svg" alt="estrela">
+                    <img src="img/Star 1.svg" alt="estrela">
+                    <img src="img/Star 1.svg" alt="estrela">
+                    <img src="img/Star 1.svg" alt="estrela">
+                    <h3 class="descrição__titulo">Autora do Mês</h3>
+                    <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                 <!--3º coluna-->
+                <img src="img/Perfil-escritora 1.svg" class="descrição__imagem" alt="imagem do livro angular">
+            </div>
+
+            <!--2º linha-->
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="favoritar um livro"></li>
+                    <li class="botões__item"><img src="img/Compras.svg" alt="adicionar ao carrinho de compras"></li>
+                </ul>
+                <!--2º coluna-->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
