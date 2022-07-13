@@ -3,6 +3,7 @@ hr {
 }
 
 .rodape {
+    display: none;
     background-color: var(--branco);
     padding: 1em;
 }
