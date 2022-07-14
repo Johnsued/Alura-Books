@@ -20,13 +20,25 @@ hr {
     .lista-rodape__titulo {
         font-size: 14px;
         margin: 0 2em 2em 0;
+        color: var(--cinza-titulo);
     }
     .lista-rodpe__link {
-        color: var(--preto);
+        color: var(--cinza-texto);
         text-decoration: none;
         font-size: 14px;
     }
     .lista-rodape__item {
         margin: 1em 0;
+    }
+}
+
+@media  screen and (min-width: 1728px){
+    .lista__rodape {
+        border-left: 1px solid var(--cinza-texto);
+        padding-left: 1em;
+    }
+
+    .rodape {
+        padding: 3em 0;
     }
 }
